@@ -3,7 +3,7 @@
 $(document).on("pagecreate","#pageone",function(){
   
   	$('#randomise').on("tap",function(){
-    	$(this).value = "TEST"; 
+    	$(this).text = "TEST"; 
  	});                       
 
 	
