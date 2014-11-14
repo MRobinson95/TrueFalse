@@ -5,7 +5,7 @@ $(document).on("pagecreate","#pageone",function()
   
   	$('#randomise').on("tap",function()
 	{
-    	alert(random()); 
+    	$(this).value = random(); 
  	});                       
 
 	function random() 
